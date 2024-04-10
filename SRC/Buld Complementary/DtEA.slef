@@ -1,0 +1,371 @@
+[{
+        "header": {
+            "appName": "EDSY",
+            "appVersion": 308179907,
+            "appURL": "https://edsy.org/#/L=Hz00000H4C0S30,HhRG0B1zq0mpTEkhG02u_W0,DBwG09K_W0,9opH04m_W0ADIH070_W0ARMG04mqK0AfQH04m_W0Aty00BBoG02W_W0BRuG050_W0Bcg10,7yT00,7VtG09K_W0,Deimos,ITA_D20"
+        },
+        "data": {
+            "event": "Loadout",
+            "Ship": "federation_corvette",
+            "ShipName": "Deimos",
+            "ShipIdent": "ITA-20",
+            "HullValue": 183147460,
+            "ModulesValue": 743406810,
+            "UnladenMass": 1666.7,
+            "CargoCapacity": 0,
+            "MaxJumpRange": 17.692451,
+            "FuelCapacity": {
+                "Main": 32,
+                "Reserve": 1.13
+            },
+            "Rebuy": 46327713,
+            "Modules": [{
+                    "Slot": "CargoHatch",
+                    "Item": "modularcargobaydoor",
+                    "On": true,
+                    "Priority": 3
+                }, {
+                    "Slot": "HugeHardpoint1",
+                    "Item": "hpt_multicannon_gimbal_huge",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 6377600,
+                    "Engineering": {
+                        "BlueprintName": "Weapon_Overcharged",
+                        "Level": 4,
+                        "Quality": 0.989,
+                        "ExperimentalEffect": "special_auto_loader",
+                        "Modifiers": [{
+                                "Label": "DamagePerSecond",
+                                "Value": 37.253832,
+                                "OriginalValue": 23.299663
+                            }, {
+                                "Label": "Damage",
+                                "Value": 5.532194,
+                                "OriginalValue": 3.46
+                            }, {
+                                "Label": "DistributorDraw",
+                                "Value": 0.481,
+                                "OriginalValue": 0.37
+                            }, {
+                                "Label": "ThermalLoad",
+                                "Value": 0.5712,
+                                "OriginalValue": 0.51
+                            }, {
+                                "Label": "AmmoClipSize",
+                                "Value": 80,
+                                "OriginalValue": 90
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "LargeHardpoint1",
+                    "Item": "hpt_beamlaser_gimbal_large",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 2396160,
+                    "Engineering": {
+                        "BlueprintName": "Weapon_Efficient",
+                        "Level": 3,
+                        "Quality": 1,
+                        "ExperimentalEffect": "special_thermalshock",
+                        "Modifiers": [{
+                                "Label": "PowerDraw",
+                                "Value": 1.216,
+                                "OriginalValue": 1.6
+                            }, {
+                                "Label": "DamagePerSecond",
+                                "Value": 21.1932,
+                                "OriginalValue": 20.3
+                            }, {
+                                "Label": "DistributorDraw",
+                                "Value": 4.185,
+                                "OriginalValue": 5.58
+                            }, {
+                                "Label": "ThermalLoad",
+                                "Value": 3.99525,
+                                "OriginalValue": 7.61
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "TinyHardpoint1",
+                    "Item": "hpt_shieldbooster_size0_class5",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 281000,
+                    "Engineering": {
+                        "BlueprintName": "ShieldBooster_Resistive",
+                        "Level": 5,
+                        "Quality": 1,
+                        "ExperimentalEffect": "special_shieldbooster_kinetic",
+                        "Modifiers": [{
+                                "Label": "Integrity",
+                                "Value": 42.24,
+                                "OriginalValue": 48
+                            }, {
+                                "Label": "PowerDraw",
+                                "Value": 1.5,
+                                "OriginalValue": 1.2
+                            }, {
+                                "Label": "DefenceModifierShieldMultiplier",
+                                "Value": 18.8,
+                                "OriginalValue": 20
+                            }, {
+                                "Label": "KineticResistance",
+                                "Value": 18.66,
+                                "OriginalValue": 0
+                            }, {
+                                "Label": "ThermicResistance",
+                                "Value": 17,
+                                "OriginalValue": 0
+                            }, {
+                                "Label": "ExplosiveResistance",
+                                "Value": 17,
+                                "OriginalValue": 0
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "Armour",
+                    "Item": "federation_corvette_armour_reactive",
+                    "On": true,
+                    "Priority": 1,
+                    "Value": 443044000,
+                    "Engineering": {
+                        "BlueprintName": "Armour_HeavyDuty",
+                        "Level": 3,
+                        "Quality": 1,
+                        "Modifiers": [{
+                                "Label": "Mass",
+                                "Value": 72,
+                                "OriginalValue": 60
+                            }, {
+                                "Label": "DefenceModifierHealthMultiplier",
+                                "Value": 327,
+                                "OriginalValue": 250
+                            }, {
+                                "Label": "KineticResistance",
+                                "Value": 27.25,
+                                "OriginalValue": 25
+                            }, {
+                                "Label": "ThermicResistance",
+                                "Value": -35.8,
+                                "OriginalValue": -40
+                            }, {
+                                "Label": "ExplosiveResistance",
+                                "Value": 22.4,
+                                "OriginalValue": 20
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "PowerPlant",
+                    "Item": "int_powerplant_size8_class5",
+                    "On": true,
+                    "Priority": 1,
+                    "Value": 116739870,
+                    "Engineering": {
+                        "BlueprintName": "PowerPlant_Boosted",
+                        "Level": 4,
+                        "Quality": 1,
+                        "Modifiers": [{
+                                "Label": "Integrity",
+                                "Value": 132,
+                                "OriginalValue": 165
+                            }, {
+                                "Label": "PowerCapacity",
+                                "Value": 47.88,
+                                "OriginalValue": 36
+                            }, {
+                                "Label": "HeatEfficiency",
+                                "Value": 0.48,
+                                "OriginalValue": 0.4
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "MainEngines",
+                    "Item": "int_engine_size7_class5",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 51289110,
+                    "Engineering": {
+                        "BlueprintName": "Engine_Dirty",
+                        "Level": 3,
+                        "Quality": 0.837,
+                        "Modifiers": [{
+                                "Label": "Integrity",
+                                "Value": 131.04,
+                                "OriginalValue": 144
+                            }, {
+                                "Label": "PowerDraw",
+                                "Value": 9.8496,
+                                "OriginalValue": 9.12
+                            }, {
+                                "Label": "EngineOptimalMass",
+                                "Value": 1998,
+                                "OriginalValue": 2160
+                            }, {
+                                "Label": "EngineOptPerformance",
+                                "Value": 124.859,
+                                "OriginalValue": 100
+                            }, {
+                                "Label": "EngineHeatRate",
+                                "Value": 1.82,
+                                "OriginalValue": 1.3
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "FrameShiftDrive",
+                    "Item": "int_hyperdrive_size6_class5",
+                    "On": true,
+                    "Priority": 1,
+                    "Value": 16179530,
+                    "Engineering": {
+                        "BlueprintName": "FSD_LongRange",
+                        "Level": 3,
+                        "Quality": 1,
+                        "Modifiers": [{
+                                "Label": "Mass",
+                                "Value": 48,
+                                "OriginalValue": 40
+                            }, {
+                                "Label": "Integrity",
+                                "Value": 128.31,
+                                "OriginalValue": 141
+                            }, {
+                                "Label": "PowerDraw",
+                                "Value": 0.8175,
+                                "OriginalValue": 0.75
+                            }, {
+                                "Label": "FSDOptimalMass",
+                                "Value": 2430,
+                                "OriginalValue": 1800
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "LifeSupport",
+                    "Item": "int_lifesupport_size5_class2",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 79440
+                }, {
+                    "Slot": "PowerDistributor",
+                    "Item": "int_powerdistributor_size8_class5",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 27249390,
+                    "Engineering": {
+                        "BlueprintName": "PowerDistributor_HighFrequency",
+                        "Level": 2,
+                        "Quality": 1,
+                        "Modifiers": [{
+                                "Label": "WeaponsCapacity",
+                                "Value": 70.56,
+                                "OriginalValue": 72
+                            }, {
+                                "Label": "WeaponsRecharge",
+                                "Value": 8.496,
+                                "OriginalValue": 7.2
+                            }, {
+                                "Label": "EnginesCapacity",
+                                "Value": 47.04,
+                                "OriginalValue": 48
+                            }, {
+                                "Label": "EnginesRecharge",
+                                "Value": 5.664,
+                                "OriginalValue": 4.8
+                            }, {
+                                "Label": "SystemsCapacity",
+                                "Value": 47.04,
+                                "OriginalValue": 48
+                            }, {
+                                "Label": "SystemsRecharge",
+                                "Value": 5.664,
+                                "OriginalValue": 4.8
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "Radar",
+                    "Item": "int_sensors_size8_class2",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 1743960,
+                    "Engineering": {
+                        "BlueprintName": "Sensor_LongRange",
+                        "Level": 4,
+                        "Quality": 1,
+                        "Modifiers": [{
+                                "Label": "Mass",
+                                "Value": 115.2,
+                                "OriginalValue": 64
+                            }, {
+                                "Label": "SensorTargetScanAngle",
+                                "Value": 22.5,
+                                "OriginalValue": 30
+                            }, {
+                                "Label": "Range",
+                                "Value": 9216,
+                                "OriginalValue": 5760
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "FuelTank",
+                    "Item": "int_fueltank_size5_class3",
+                    "On": true,
+                    "Priority": 1,
+                    "Value": 97750
+                }, {
+                    "Slot": "Slot01_Size7",
+                    "Item": "int_shieldgenerator_size7_class5_strong",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 76933670,
+                    "Engineering": {
+                        "BlueprintName": "ShieldGenerator_Thermic",
+                        "Level": 5,
+                        "Quality": 1,
+                        "ExperimentalEffect": "special_shield_health",
+                        "Modifiers": [{
+                                "Label": "Integrity",
+                                "Value": 219.8,
+                                "OriginalValue": 157
+                            }, {
+                                "Label": "PowerDraw",
+                                "Value": 8.085,
+                                "OriginalValue": 7.35
+                            }, {
+                                "Label": "ShieldGenStrength",
+                                "Value": 159,
+                                "OriginalValue": 150
+                            }, {
+                                "Label": "EnergyPerRegen",
+                                "Value": 0.75,
+                                "OriginalValue": 0.6
+                            }, {
+                                "Label": "KineticResistance",
+                                "Value": 28,
+                                "OriginalValue": 40
+                            }, {
+                                "Label": "ThermicResistance",
+                                "Value": 40,
+                                "OriginalValue": -20
+                            }
+                        ]
+                    }
+                }, {
+                    "Slot": "Military01",
+                    "Item": "int_guardianshieldreinforcement_size5_class2",
+                    "On": true,
+                    "Priority": 0,
+                    "Value": 995330
+                }
+            ]
+        }
+    }
+]

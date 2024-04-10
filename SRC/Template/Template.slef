@@ -1,0 +1,50 @@
+[
+    {
+        "header": {
+            "appName": "Inara",
+            "appVersion": "1.0",
+            "appURL": "https:\/\/inara.cz\/cmdr-fleet\/1\/32243\/",
+            "appCustomProperties": {
+                "anything": "here"
+            }
+        },
+        "data": {
+            "Ship": "Anaconda",
+            "Modules": [
+                {
+                    "Slot": "HugeHardpoint1",
+                    "Item": "Hpt_BeamLaser_Gimbal_Huge",
+                    "Engineering": {
+                        "BlueprintName": "Weapon_LightWeight",
+                        "Level": 4,
+                        "Quality": 0.95,
+                        "ExperimentalEffect": "special_corrosive_shell"
+                    }
+                },
+                {
+                    "Slot": "largehardpoint1",
+                    "Item": "hpt_multicannon_gimbal_large"
+                }
+            ]
+        }
+    },
+    {
+        "header": {
+            "appName": "Inara",
+            "appVersion": "1.0",
+            "appURL": "https:\/\/inara.cz\/cmdr-fleet\/1\/944\/",
+            "appCustomProperties": {
+                "anything": "here"
+            }
+        },
+        "data": {
+            "Ship": "asp",
+            "Modules": [
+                {
+                    "Slot": "mediumhardpoint1",
+                    "Item": "hpt_multicannon_gimbal_medium"
+                }
+            ]
+        }
+    }
+]
